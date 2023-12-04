@@ -1,0 +1,53 @@
+.ban {
+    background-color: aquamarine;
+}
+
+.navigation {
+    background-color: blanchedalmond;
+}
+
+.sec {
+    background-color: darkkhaki;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    background-color: blueviolet;
+}
+
+div {
+    text-align: center;
+}
+
+.divs {
+    display: flex;
+}
+
+div:hover {
+    background-color: black;
+}
+
+div:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.side {
+    background-color: goldenrod;
+}
+
+#foot {
+    height: 60px;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: darksalmon;
+}
+
+p {
+    text-align: center;
+}

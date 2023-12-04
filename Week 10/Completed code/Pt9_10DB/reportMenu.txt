@@ -1,0 +1,7 @@
+Enter an option to print
+
+1. Print details of all Films
+2. Print all Films of a particular genre
+3. Print all Films of a particular year
+4. Print all Films of a particular rating
+5. Exit

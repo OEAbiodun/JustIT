@@ -1,0 +1,49 @@
+body {
+    background-color: aqua;
+}
+
+section {
+    background-color: darkgoldenrod;
+    padding: 40px;
+}
+div {
+    margin: 10px;
+    padding: 2px;
+    background-color: rgb(11, 3, 0);
+    /* position: relative; */
+}
+.foot-l {
+    color: red;
+    font-size: 35px;
+    float: left;
+}
+
+.foot-a {
+    color: rgb(68, 239, 125);
+    font-size: 35px;
+    float: left;
+}
+
+.foot-t {
+    color: rgb(227, 84, 213);
+    font-size: 35px;
+    float: left;
+}
+
+.foot-i {
+    color: rgb(100, 87, 172);
+    font-size: 35px;
+    float: left;
+}
+
+.foot-n {
+    color: rgb(163, 150, 150);
+    font-size: 35px;
+    float: left;
+}
+
+.foot-s {
+    color: rgb(75, 218, 35);
+    font-size: 35px;
+    float: left;
+}

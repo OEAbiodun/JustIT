@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <style>
+        .header-title{
+            font-size: 40px;
+            color: white;
+            font-family: 'Gloock', Courier, monospace;
+        }
+        section{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: none;
+            border-radius: 20px;
+            background-image:url("ahmed.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header{
+            text-align: center;
+            padding: 10px;
+        }
+
+        a{
+            color: rgb(11, 6, 1);
+            margin: 30px;
+            font-size: 18px;
+        }
+
+        legend{
+            color: rgb(243, 238, 236);
+            font-weight: bolder;
+            font-size: 18px;
+        }
+        label{
+            color: rgb(244, 238, 238);
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            display: inline-block;
+            border: none;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 5px;           
+        }
+
+        fieldset{
+            width: 250px;
+            margin:auto; 
+            padding: 20px;
+            border: none;
+            border-radius: 20px; 
+            background-color: rgb(213, 141, 6);
+        }
+
+        .submit{
+            color: rgb(246, 249, 246);
+            background-color: rgb(121, 65, 19);
+            width: 100%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;  
+            font-weight: 900;
+            margin: 5px 0;
+            padding: 14px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;   
+        }
+
+        footer{
+            color: white;
+            background-color: rgb(235, 138, 41);
+            border: none;
+            bottom: 0px;
+            border-radius: 20px;
+            margin-top: 3px;
+            padding: 70px;
+        }
+        .footer-title{
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .copy-right{
+            color: rgb(238, 12, 12);
+            background-color: white;
+            text-align: center;
+            bottom: 0;           
+        }
+        div.copy-right{
+            margin: 5px;
+            padding: 30px;
+            border-radius: 20px;
+            background-image:url("rohan.jpg");
+        }
+    </style>
+    <title>SignUp</title>
+</head>
+<body>
+    <section>
+    <form action="/submit" method="post">
+        <header>
+            <h1 class="header-title">Welcome to my Housing page</h1>
+            <a id="home" href="index2.html">Home</a>
+            <a id="about" href="#">About</a>
+            <a id="contact" href="#">Contact</a>
+            <a id="form" href="#">Form</a>
+        </header>
+        <fieldset class="field">
+            <legend>User Information</legend>
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" class="fname" placeholder="First Name">
+
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" class="lname" placeholder="Last Name">
+
+            <label for="age">Age: </label>
+            <input type="text" id="age" class="age" placeholder="Age">
+    
+            <label for="address">Address: </label>
+            <input type="text" id="address" class="address" placeholder="Address">
+
+            <label for="phone">Phone: </label>
+            <input type="text" id="phone" class="phone" placeholder="Phone Number">
+
+            <input type="submit" value="send" class="submit">
+        </fieldset>
+    </form>
+</section>
+
+<div class="copy-right">
+    <h1 class="footer-title">This is a footer</h1>
+    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Est tempore nostrum porro incidunt doloribus ad quas, odio veniam 
+        deleniti maiores vel assumenda ab itaque corrupti officia 
+        necessitatibus minus doloremque ullam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Est tempore nostrum porro incidunt doloribus ad quas, odio veniam 
+        deleniti maiores vel assumenda ab itaque corrupti officia 
+        necessitatibus minus doloremque ullam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Est tempore nostrum porro incidunt doloribus ad quas, odio veniam 
+        deleniti maiores vel assumenda ab itaque corrupti officia 
+        necessitatibus minus doloremque ullam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Est tempore nostrum porro incidunt doloribus ad quas, odio veniam 
+        deleniti maiores vel assumenda ab itaque corrupti officia 
+        necessitatibus minus doloremque ullam.
+    </h2>
+        &copy; All Rights Reserved.
+</div>
+</body>
+</html>

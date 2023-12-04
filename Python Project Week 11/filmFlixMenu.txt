@@ -1,0 +1,9 @@
+-----Welcome to FilmFlix Main Menu options-----
+Please Enter an option:
+1. Add a Film
+2. Delete a Film
+3. Update a Film
+4. Print all film records
+5. Search for a film by first character
+6. Select report option
+7. Exit the FilmFlix App

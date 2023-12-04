@@ -1,0 +1,22 @@
+/* body{
+    background-color: blueviolet;
+}
+
+h1{
+    color: white; 
+}
+/* ID selector select a specific element that matches specified ID*/
+/* #p1{
+    color: orange;
+}
+
+.paragraphs{
+    color: yellowgreen;
+} */ 
+
+h1{
+    font-family: 'Dancing Script', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+p[id="p1"], p[class="paragraphs"]{color: brown;}

@@ -1,0 +1,21 @@
+str = input('Enter Common Names to search: ')
+
+for i in commonNames:
+    if str in commonNames[0]:
+        print(f'{str} Found!')
+    else:
+        print(f'{str} Not Found!')
+
+# if str == commonNames[0]:
+#     print(f'{str} Found!')
+# else:
+#     print(f'{str} Not Found!')
+
+
+
+
+print ('Alist Slicing is: ', aList[0:5])
+print ('Blist Slicing is: ', bList[0:4])
+
+abList = [aList + bList]
+print('Combined List is: ', abList)

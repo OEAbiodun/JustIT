@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0!important;
+}
+
+body{
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/flix-logo.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.signin-btn {
+    margin-right: 100px;
+}
+
+.signin-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.search-btn {
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #c43a3a;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#banner{
+    /* display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox; */
+    display: flex;
+    flex-direction: row;
+    /* position: relative;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; */
+    background-color: rgb( 14, 27, 79 );
+    background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    /* margin: 0 74px; */
+    color: white;
+    padding: 50px;
+    align-self: flex-end;
+}
+
+.header-content h3 {
+    margin: 1rem 0 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    
+}
+
+.ready-to-watch {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.middle-features {
+    padding: 50px 12%;
+    font-size: 22px;
+    border-bottom: 8px solid #333; /*Gray line seperates the header-content and the features*/
+}
+
+.row {
+    display: flex;
+    /* border-top: 6px solid #333;  */
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.middle-features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+#enjoy-on-tv, #watch-everywhere{
+    border-bottom: 8px solid #333;
+}
+
+#children-profile {
+    border-bottom: 8px solid #333;
+}
+
+.faq {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.question {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.question li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.question li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+.radio {
+    display: none;
+}
+
+.question .content {
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.question .content {
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.question input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.question input[type="radio"]:checked + label::after {
+    transform: rotate(135deg);
+}
+
+/* .........................This is the Footer Section......................... */
+
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 8px solid #333;
+}
+
+.footer h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: #fcfafa;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.footer .lang-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.bottom-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* .........................................The media queries......................................... */
+
+@media screen and (max-width: 600px){
+    .logo{
+        width:110px;
+    }
+    nav button {
+        padding: 5px 10px
+    }
+    .header-content {
+        position: unset;
+        transform: none;
+        padding: 15px; 
+    }
+    .header-content h1 {
+        font-size: 20px;
+    }
+    .header-content h3 {
+        font-size: 15px;
+    }
+    .search-bar{
+        width: 200px;
+    }
+    .search-btn {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .text-col, .img-col {
+        flex-basis: 100%;
+    }
+    .middle-features h2 {
+        text-align: center;
+    }
+    .middle {
+        text-align: center;
+    }
+    .only-available {
+        font-size: 15px;
+        text-align: center;
+    }
+    .faq h2 {
+        font-size: 17px;
+    }
+    .middle-features {
+        padding: 10px 0;
+    }
+    .middle-features h2 {
+        font-size: 20px;
+    }
+    .middle-features p {
+        font-size: 15px;
+    }
+    .row:nth-child(2), .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+    .footer h4 {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

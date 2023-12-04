@@ -1,0 +1,11 @@
+body {
+    /* background-image: url(../../../../images/coffee\ 1.jpg); */
+    background-color: aquamarine;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}

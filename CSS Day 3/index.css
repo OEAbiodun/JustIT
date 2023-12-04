@@ -1,0 +1,57 @@
+header {
+    background-color: blueviolet;
+}
+
+nav {
+    font-size: 24px;
+    text-align: right;
+    margin: 5px;
+}
+
+a:hover {
+    color: rgb(44, 215, 67);
+}
+
+a:link {
+    color: blueviolet;
+    text-decoration-color: hotpink;
+}
+
+.about:hover
+{
+    color: rgb(253, 5, 5);
+}
+
+.contacts:hover
+{
+    color: rgb(164, 34, 45);
+}
+
+form {
+    margin: 40px;
+}
+
+.log {
+    padding: 50px;
+    background-color: aquamarine;
+    transition: transform .2s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#name {
+    border-radius: 10px;
+}
+
+div:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+button {
+    margin: 10px;
+    width: 100px;
+}

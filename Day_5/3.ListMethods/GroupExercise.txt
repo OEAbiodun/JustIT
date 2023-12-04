@@ -1,0 +1,37 @@
+# index  =   0 1 2 3 4 5 6 7 8 9 10.........
+
+
+aList = [1, 2, 3, 4, 5, 6, 7, 8, 16, 17, 18]
+
+bList = [11, 12, 13,14, 15,16,17,18,4,5, 6,]
+print(aList)
+print(bList)
+
+print(aList[2])
+print(bList[4])
+
+# joined lists
+
+joinedList = aList + bList
+print(f"The joined list\n{joinedList}")
+
+
+# add values from list one list to another list
+listAB = [aList[i] + bList[i] for i in range(len(aList))]
+print(f"The Added items from list a {aList} and listb {bList}\n{listAB}")
+
+# Find common list items
+commonNums = [nums for nums in aList if nums in bList]
+
+print(f"The commn list items are :\n{commonNums}")
+
+for nums in aList:
+    if nums in bList:
+        print(nums)
+
+# Exercise: sort and print the items in the commons variable in ascending and descending order
+# commonNums
+# Exercise:  create two lists with at least two/three common names in both lists
+# find the common names from both lists and put them in a commonNames List
+# use the input and then the if to search the common names list for a specific name
+# Exercise : Slice list aList from 0 - 5 and bList from 0 - 4 and put them together in a new list
