@@ -207,7 +207,8 @@ span {
 .btn-primary { border-color: var(--color-primary); }
 
 .btn-primary:is(:hover, :focus) {
-  background: var(--color-primary);
+  /* background: var(--color-primary); */
+  background: var(--raw-seinna);
   color: var(--bg-primary);
 }
 
