@@ -1168,7 +1168,8 @@ textarea.input-field {
     transition: var(--transition-1);
   }
 
-  .hero-social-link:is(:hover, :focus) { color: var(--color-primary); }
+  /* .hero-social-link:is(:hover, :focus) { color: var(--color-primary); } */
+  .hero-social-link:is(:hover, :focus) { color: var(--raw-seinna); }
 
   .hero-social-link .tooltip {
     --trans-x: 10px;
