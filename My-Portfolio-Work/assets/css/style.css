@@ -220,6 +220,11 @@ span {
 
 .btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
 
+/* send button background color */
+#send:hover{
+  background-color: var(--raw-seinna);
+}
+
 .section-subtitle {
   position: relative;
   color: var(--color-secondary);
