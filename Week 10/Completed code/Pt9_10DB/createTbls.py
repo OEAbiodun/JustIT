@@ -18,7 +18,7 @@ CREATE TABLE "songs" (
     "Genre" TEXT,
     PRIMARY KEY("SongID" AUTOINCREMENT)
 )""")
-# ......... Create the table(s) with the foreigh keys last..................
+# ......... Create the table(s) with the foreign keys last..................
 dbCursor.execute("""
 CREATE TABLE "downloads" (
     "DownlID"   INTEGER NOT NULL UNIQUE,
